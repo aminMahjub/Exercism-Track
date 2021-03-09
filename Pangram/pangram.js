@@ -4,8 +4,8 @@ export const isPangram = (string) => {
   if (lowerString === "") {
     return false;
   }
-  
-  for (let i = 0; i < alphabet.length; i++) {
+  var alphabetLentgh = alphabet.length;
+  for (let i = 0; i < alphabetLentgh; i++) {
     if (lowerString.includes(alphabet[i]) === false)
      return false
   }
